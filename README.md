@@ -16,9 +16,9 @@ A sleek, lightweight, and responsive Pomodoro Timer web application designed to 
 
 ## Tech Stack
 
-- **Markup:** HTML5
-- **Styling:** CSS3 (Flexbox/Grid, Custom Properties)
-- **Logic:** Vanilla JavaScript (ES6+)
+- **Markup:** HTML5 (index.html) and React 19 JSX/TSX components with semantic HTML and ARIA accessibility attributes (tablist, tab, progressbar, alert, fieldset).HTML5 (index.html) and React 19 JSX/TSX components with semantic HTML and ARIA accessibility attributes (tablist, tab, progressbar, alert, fieldset).
+- **Styling:** Tailwind CSS v4 (@tailwindcss/vite), global base CSS rules in src/index.css (for focus-visible rings and prefers-reduced-motion), Plus Jakarta Sans via Google Fonts, and lucide-react for icons.
+- **Logic:** TypeScript and React 19 hooks (useState, useEffect, useRef, useCallback, useId), bundled with Vite (vite and @vitejs/plugin-react), using timestamp-based setInterval timing, localStorage for saving session settings, and the Web Audio API + Web Notifications API for session-end alerts.
 
 ---
 
